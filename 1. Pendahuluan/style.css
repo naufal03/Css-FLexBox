@@ -1,0 +1,46 @@
+.container {
+	width: 800px;
+	height: 150px;
+	border: 3px solid black;
+	margin: 5px auto;
+	display: flex;
+	padding: 5px;
+	box-sizing: border-box;
+	/* mengatur arah blok */
+	/* flex-direction: row;
+
+	/* mengatur jumlah blok */
+	/* flex-wrap: wrap;  */
+
+	/* mengatur jarak horizontal */
+	/* justify-content: space-evenly; */
+
+	/* mengatur jarak vertikal */
+	align-items: flex-start;
+
+	/* align-content: flex-end; */
+}
+
+.container div {
+	background-color: firebrick;
+	flex-grow: 1;
+	margin: 5px;
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	/* line-height: px; */
+}
+
+
+/* property pada item */
+/* urutan  */
+/* .satu{order: 2;}
+.dua{order: 3;}
+.tiga{order: 4;}
+.empat{order: 1;} */
+
+/* ukuran */
+.container div.dua {
+	flex-grow: 4;
+	align-self: center;
+}

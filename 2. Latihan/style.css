@@ -1,0 +1,180 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.5;
+	padding-bottom: 1000px;
+	background-color: #ddd;
+}
+
+/* latihan 1 */
+.container-satu {
+	max-width: 800px;
+	margin: 50px auto;
+	background-color: white;
+	padding: 20px;
+	box-sizing: border-box;
+	display: flex;
+}
+
+.konten-utama {
+	flex: 3;
+	order: 2;
+}
+
+.sidebar-satu {
+	flex: 1;
+	order: 1;
+}
+
+.sidebar-dua {
+	flex: 1;
+	order: 3;
+}
+
+/* akhir latihan 1 */
+
+/* latihan 2 */
+.container-dua {
+	max-width: 800px;
+	margin: 50px auto;
+	padding: 20px;
+	box-sizing: border-box;
+
+}
+
+.layanan {
+
+	padding: 20px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+}
+
+.layanan.satu {
+	background-color: rgb(102, 102, 255);
+}
+
+.layanan.dua {
+	background-color: rgb(108, 252, 108);
+}
+
+.layanan.tiga {
+	background-color: rgb(250, 117, 117);
+}
+
+
+/* end latihan 2 */
+
+
+/*  latihan 3 */
+
+.container-tiga {
+	max-width: 800px;
+	margin: 50px auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 8px;
+	box-sizing: border-box;
+}
+
+.thumbnail {
+	width: 50%;
+
+}
+
+.thumbnail img {
+	width: 100%;
+}
+
+/* end latihan 3 */
+
+/* latihan 4 */
+.container-empat {
+	max-width: 800px;
+	margin: 50px auto;
+}
+
+.card {
+	border: 1px solid #aaa;
+	border-radius: 10px;
+	background-color: #eee;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	overflow: hidden;
+	margin: 10px;
+	width: 100%;
+}
+
+.card .header {
+	height: 150px;
+	background-color: #666;
+
+}
+
+.card .content {
+	text-align: center;
+	padding-bottom: 20px;
+
+}
+
+.card.besar {
+	transform: scale(1.12);
+	-webkit-transform: scale(1.12);
+	-moz-transform: scale(1.12);
+	-ms-transform: scale(1.12);
+	-o-transform: scale(1.12);
+	
+
+}
+
+
+/* end latihan 4 */
+
+/* lathan 5 */
+.container-lima{
+	width: 500px;
+	height: 500px;
+	margin: 50px auto;
+	border: 5px solid black;
+	display: flex;
+}
+.kotak{
+	width: 200px;
+	height: 200px;
+	background-color: crimson;
+	color: white;
+	margin: auto;
+	text-align: center;
+	display: flex;
+}
+.kotak span{
+	margin: auto;
+}
+/* end latihan 5 */
+/* Responsive */
+
+@media (min-width:600px) {
+	.container-dua {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.layanan {
+		width: 30%;
+	}
+
+	.thumbnail {
+		width: 25%;
+	}
+
+	.container-empat{
+		display: flex;
+	}
+}
